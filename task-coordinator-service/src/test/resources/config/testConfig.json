@@ -1,0 +1,26 @@
+{
+  "tcsDeploymentMode" : "MULTI_INSTANCE",
+  "zookeeperConnectString" : "172.19.172.171:2181",
+  "tcsTransportMode" : "zeromq",
+  "clusterConfig" : {
+    "clusterName" : "APIC-TCS",
+    "shardGroupName" : "tcs-shard",
+    "numPartitions" : 4
+  },
+  "dbConfig" : {
+    "dbConnectString" : "jdbc:mysql://172.19.172.171:3306/tcsdb?autoReconnect=true",
+    "userName" : "root",
+    "password" : "root"
+  },
+  "rabbitConfig" : {
+    "brokerAddress" : "172.19.172.171"
+  },
+  "zeromqConfig" : {
+    "brokerAddress" : "localhost",
+    "frontendPort" : 5555,
+    "backendPort" : 6666,
+    "frontendProtocol" : "tcp",
+    "autoStart" : true
+  }
+   
+}
