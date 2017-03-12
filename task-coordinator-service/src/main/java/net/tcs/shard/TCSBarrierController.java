@@ -15,7 +15,7 @@ import net.tcs.config.TCSConfigReader;
  * multiple instances of TCS.
  */
 public class TCSBarrierController {
-    public static final String BARRIER_PATH = "/apic/tcs/barrier";
+    public static final String BARRIER_PATH = "/tcs/barrier";
 
     public static void main(String[] args) throws IOException {
         if (args.length == 0) {

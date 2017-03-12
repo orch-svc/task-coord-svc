@@ -25,7 +25,7 @@ import org.springframework.util.StringUtils;
 @Component
 public class TCSClusterObserver {
 
-    private static final String TCS_CLUSTER_NAME = "APIC-TCS";
+    private static final String TCS_CLUSTER_NAME = "TCS";
 
     private static final String TCS_RESOURCE_NAME = "tcs-shard";
 

@@ -27,7 +27,7 @@ public class TCSConfigGenerator {
         config.setDbConfig(dbConfig);
 
         final TCSClusterConfig clusterConfig = new TCSClusterConfig();
-        clusterConfig.setClusterName("APIC-TCS");
+        clusterConfig.setClusterName("TCS");
         clusterConfig.setShardGroupName(TCSConstants.TCS_SHARD_GROUP_NAME);
         clusterConfig.setNumPartitions(8);
         config.setClusterConfig(clusterConfig);

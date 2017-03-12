@@ -3,7 +3,7 @@
   "zookeeperConnectString" : "ZK_IP:2181",
   "tcsTransportMode" : "<ZEROMQ> or <RABBITMQ>",
   "clusterConfig" : {
-    "clusterName" : "APIC-TCS",
+    "clusterName" : "TCS",
     "shardGroupName" : "tcs-shard",
     "numPartitions" : NUM_SHARDS
   },
